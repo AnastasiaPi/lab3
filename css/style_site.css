@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main_site{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	background-image: url(../source/back.png);
+}
+.head_site{
+	margin: 20px 0;
+	height: 2000px;
+	width: 90%;
+	background: white;
+	box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+.head{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 5%;
+	width: 100%;
+}
+.head_text{
+	height: 40px;
+	width: 50%;
+	margin: 0 0 0 5%;
+	font-size: 180%;
+	font-family: "Myriad Pro";
+	font-weight: 400;
+	color: #ff8100;
+}
+.pic{
+	align-self: center;
+	width: 100%;
+	height: 40%;
+	Ї
+}
+.head_pic{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 25%;
+	background-image: url(/Users/anastasiapidgurska/ВЕБ/WEB_flex/source/542754635341240.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.head_pic__text{
+	display: flex;
+	height: 12%;
+	width: 100%;
+	background-color: rgba(188, 188, 201, 0.7);
+}
+.text_menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 100%;
+	font-size: 110%;
+	font-family:  "Myriad Pro";
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+.pic_text_bottom{
+	align-self: flex-end;
+	align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	width: 50%;
+	height: 75%;
+}
+.pic_text_bottom_one{
+	font-size: 35pt;
+	font-family:  "Baskerville - Regular";
+	font-weight: 400;
+	color: white;
+	padding: 0 20% 0 0;
+}
+.pic_text_bottom_two{
+	text-shadow: 1px 2px black;
+	font-size: 200%;
+	font-family: Athelas;
+	font-weight: 400;
+	color: #ff8100;
+	padding: 0 20% 0 0;
+}
+.team{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 40%;
+	width: 100%
+}
+.team_head{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 70%
+}
+.team_head__text{
+	padding: 10% 0 2% 0;
+	font-size: 250%;
+	font-family: Athelas;
+	font-weight: 400;
+	color: #d3710e;
+}
+.team_head_line{
+	width: 50%;
+	height: 1px;
+	background-color: #d3710e;
+}
+.team_main__text{
+	padding: 5% 0 2% 0;
+	font-size: 120%;
+	font-family: Helvetica;
+	font-weight: 400;
+}
+.team_pic{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 70%
+}
+.pic{
+	height: 100%;
+	width: 25%;
+	margin: 0 20px;
+}
+
